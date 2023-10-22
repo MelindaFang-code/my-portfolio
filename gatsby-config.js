@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    "gatsby-plugin-image",
     {
       resolve: "gatsby-theme-portfolio-minimal",
       options: {
@@ -26,4 +27,5 @@ module.exports = {
       },
     },
   ],
+  extensions: [".ts", ".tsx", ".js", ".css", ".scss"],
 };

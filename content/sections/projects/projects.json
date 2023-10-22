@@ -3,7 +3,7 @@
     {
       "visible": true,
       "category": "Jun 2023-Aug 2023",
-      "title": "Citadel Securities",
+      "title": "Citadel Securities, Quant Developer Intern",
       "description": "Re-architecture the option pricing tool to apply volatility assertion, reduced 70% latency and improve production stability.",
       "tags": ["Algorithmic Trading", "C++", "Network Programming", "Low Latency"],
       "image": {
@@ -25,7 +25,7 @@
     {
       "visible": true,
       "category": "Jan 2023 - Apr 2023",
-      "title": "Stripe",
+      "title": "Stripe, Software Developer Intern",
       "description": " Built workflows that migrate petabytes of data from 1k+ replica sets to upgrade and rebalance shards, and dashboards to monitor process and send alerts",
       "tags": ["GoLang", "Workflow Orchestration", "MongoDb", "Protobuf", "gRPC", "Splunk"],
       "image": {
@@ -42,9 +42,9 @@
     {
       "visible": true,
       "category": "Jun 2022 - Aug 2022",
-      "title": "Meta",
+      "title": "Meta, Data Engineer Intern",
       "description": " Built a centralized scalable data framework for FAIR research, enabling fast query, automated testing, and debugging. Created an end-to-end data validation CLI to optimize data ingestion of Ego4d, largest egocentric video dataset",
-      "tags": ["Python", "SQL", "Presto"],
+      "tags": ["Python", "SQL", "Presto", "Data Orchestration"],
       "image": {
         "src": "../../images/meta.png",
         "alt": "Extendable Layout"
@@ -59,7 +59,7 @@
     {
       "visible": true,
       "category": "Jun 2021 - Aug 2021",
-      "title": "Microsoft",
+      "title": "Microsoft, Software Developer Intern",
       "description": "Developed a web application that arranges engineers' on-call rotations with perfect fairness, track progress, and auto generate weekly summary emails.",
       "tags": ["React", "Typescript", "C#", ".Net", "Azure"],
       "image": {
@@ -74,7 +74,7 @@
       ]
     }
   ],
-  "button": {
+  "button":  {
     "visible": false,
     "label": "Visit on Github",
     "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"

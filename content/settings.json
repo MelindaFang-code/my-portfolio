@@ -12,14 +12,15 @@
       "behance": "https://behance.com",
       "github": "https://github.com/MelindaFang-code",
       "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
-      "mail": "cf348@cornell.edu"
+      "mail": "cf348@cornell.edu",
+      "medium": "https://konstantinmuenster.medium.com"
     }
   },
   "siteConfiguration": {
     "logo": { "text": "Portfolio" },
     "navigation": {
       "header": [
-        { "label": "About", "url": "/#about" },
+        { "label": "About", "url": "/#me" },
         { "label": "Blog", "url": "/blog" },
         { "label": "Experiences", "url": "/#experiences" },
         { "label": "Github", "url": "/#github" }
