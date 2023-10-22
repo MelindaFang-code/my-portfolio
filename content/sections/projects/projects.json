@@ -2,12 +2,12 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "Jun 2023-Aug 2023",
+      "title": "Citadel Securities",
+      "description": "Re-architecture the option pricing tool to apply volatility assertion, reduced 70% latency and improve production stability.",
+      "tags": ["Algorithmic Trading", "C++", "Network Programming", "Low Latency"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+        "src": "../../images/citsec2.png",
         "alt": "Quick Setup",
         "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
       },
@@ -24,12 +24,46 @@
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "Jan 2023 - Apr 2023",
+      "title": "Stripe",
+      "description": " Built workflows that migrate petabytes of data from 1k+ replica sets to upgrade and rebalance shards, and dashboards to monitor process and send alerts",
+      "tags": ["GoLang", "Workflow Orchestration", "MongoDb", "Protobuf", "gRPC", "Splunk"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
+        "src": "../../images/s.png",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Jun 2022 - Aug 2022",
+      "title": "Meta",
+      "description": " Built a centralized scalable data framework for FAIR research, enabling fast query, automated testing, and debugging. Created an end-to-end data validation CLI to optimize data ingestion of Ego4d, largest egocentric video dataset",
+      "tags": ["Python", "SQL", "Presto"],
+      "image": {
+        "src": "../../images/meta.png",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Jun 2021 - Aug 2021",
+      "title": "Microsoft",
+      "description": "Developed a web application that arranges engineers' on-call rotations with perfect fairness, track progress, and auto generate weekly summary emails.",
+      "tags": ["React", "Typescript", "C#", ".Net", "Azure"],
+      "image": {
+        "src": "../../images/m.jpg",
         "alt": "Extendable Layout"
       },
       "links": [
@@ -41,7 +75,7 @@
     }
   ],
   "button": {
-    "visible": true,
+    "visible": false,
     "label": "Visit on Github",
     "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
   }
