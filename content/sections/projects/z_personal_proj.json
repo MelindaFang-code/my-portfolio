@@ -1,0 +1,75 @@
+{
+  "projects": [
+    {
+      "visible": true,
+      "category": "Global datathon with 2k+ applicants",
+      "title": "Citadel DataOpen, 3rd place",
+      "description":
+        "Analyze social disclosure's effect on loan funding and repayment using LendingClub loan descriptions.",
+      "tags": [
+        "Algorithmic Trading",
+        "C++",
+        "Network Programming",
+        "Low Latency"
+      ],
+      "image": {
+        "src": "../../images/trans.png",
+        "alt": "Quick Setup",
+        "linkTo":
+          "https://www.citadel.com/careers/students/datathons/"
+      },
+      "links": [
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Global ML research competition with 1k+ participants",
+      "title": "ProjectX 2021, 1st Place",
+      "description":
+        "Researched the effect of misinformation on the spread of covid and developed a warning system to combat social media posts that are likely to cause widespread harm; paper accepted by the UofT AI Conference.",
+      "tags": [
+        "GoLang",
+        "Workflow Orchestration",
+        "MongoDb",
+        "Protobuf",
+        "gRPC",
+        "Splunk"
+      ],
+      "image": {
+        "src": "../../images/tweet.jpg",
+        "alt": "Extendable Layout",
+        "linkTo": "https://arxiv.org/abs/2207.01483"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://arxiv.org/abs/2207.01483"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Jun 2022 - Aug 2022",
+      "title": "International Mathematics Contest in Modeling, top 5%",
+      "description":
+        "Use CNN to predict distribution of hornets and provide quantitative guidelines for pest control",
+      "tags": ["Python", "SQL", "Presto", "Data Orchestration"],
+      "image": {
+        "src": "../../images/hornet.png",
+        "alt": "Extendable Layout",
+        "linkTo": ""
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        }
+      ]
+    }
+  ],
+  "button": {
+    "visible": false,
+    "label": "Visit on Github",
+    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+  }
+}
