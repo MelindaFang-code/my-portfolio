@@ -27,5 +27,5 @@ module.exports = {
       },
     },
   ],
-  extensions: [".ts", ".tsx", ".js", ".css", ".scss"],
+  // extensions: [".ts", ".tsx", ".js", ".css", ".scss"],
 };
