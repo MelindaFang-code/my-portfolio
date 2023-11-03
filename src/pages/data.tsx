@@ -164,7 +164,7 @@ export function Project(props) {
   );
 }
 
-export function MyProject() {
+export default function MyProject() {
   const response = useLocalDataSource();
   console.log(response);
   const datap = response.allProjectsJson.sections;
