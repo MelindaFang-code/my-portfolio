@@ -13,7 +13,7 @@ import {
   // PageSection,
   // Slider,
 } from "gatsby-theme-portfolio-minimal";
-import { MyProject, Project } from "./data.tsx";
+import { MyProject, Project } from "../helper/data.tsx";
 
 export default function IndexPage() {
   const proj = MyProject();
