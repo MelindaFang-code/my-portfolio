@@ -1,8 +1,8 @@
 {
   "siteMetadata": {
     "language": "en",
-    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
+    "siteUrl": "https://melinda-funnnnn-code.netlify.app/",
+    "title": "Melinda Fang",
     "titleTemplate": "%s · Portfolio Minimal",
     "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
     "author": "Konstantin Münster",
@@ -11,7 +11,7 @@
     "social": {
       "behance": "https://behance.com",
       "github": "https://github.com/MelindaFang-code",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
+      "linkedin": "https://www.linkedin.com/in/chenxin-fang-326b2b1aa/",
       "mail": "cf348@cornell.edu",
       "medium": "https://konstantinmuenster.medium.com"
     }
