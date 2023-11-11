@@ -23,7 +23,6 @@ export default function IndexPage() {
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="me" />
         <InterestsSection sectionId="details" heading="Skills" />
-        {/* <ProjectsSection sectionId="experiences" heading="Experiences" /> */}
         <Animation type="fadeIn">
           <Section anchor={"experiences"} heading={"Experiences"}>
             {proj[0].projects.map((project, key) => {
@@ -42,11 +41,11 @@ export default function IndexPage() {
             })}
           </Section>
         </Animation>
-        {/* <ArticlesSection
+        <ArticlesSection
           sectionId="articles"
           heading="Latest Articles"
-          sources={["medium"]}
-        /> */}
+          sources={["blog"]}
+        />
         <ContactSection sectionId="github" heading="Contact Me" />
       </Page>
     </>
