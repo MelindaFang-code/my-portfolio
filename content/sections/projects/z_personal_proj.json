@@ -7,11 +7,10 @@
       "description":
         "Analyze social disclosure's effect on loan funding and repayment using LendingClub loan descriptions.",
       "tags": [
-        "Algorithmic Trading",
-        "C++",
-        "Network Programming",
-        "Low Latency"
-      ],
+        "Natural Language Processing",
+        "BERT",
+        "Finance",
+      "Principal Cmponent Analysis", "K-Means"      ],
       "image": {
         "src": "../../images/trans.png",
         "alt": "Quick Setup",
@@ -28,12 +27,11 @@
       "description":
         "Researched the effect of misinformation on the spread of covid and developed a warning system to combat social media posts that are likely to cause widespread harm; paper accepted by the UofT AI Conference.",
       "tags": [
-        "GoLang",
-        "Workflow Orchestration",
-        "MongoDb",
-        "Protobuf",
-        "gRPC",
-        "Splunk"
+        "Natural Language Processing",
+        "Bi-LSTM",
+        "NLTK",
+        "Bagging",
+        "Statistical Modeling"
       ],
       "image": {
         "src": "../../images/tweet.jpg",
@@ -53,7 +51,7 @@
       "title": "International Mathematics Contest in Modeling, top 5%",
       "description":
         "Use CNN to predict distribution of hornets and provide quantitative guidelines for pest control",
-      "tags": ["Python", "SQL", "Presto", "Data Orchestration"],
+      "tags": ["Convolutional Neural Network", "Support Vector Machine", "Logistic Regression"],
       "image": {
         "src": "../../images/hornet.png",
         "alt": "Extendable Layout",

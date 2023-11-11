@@ -22,7 +22,7 @@
       }
     },
     {
-      "label": "Medium Integration",
+      "label": "MongoDb",
       "image": {
         "src": "../../images/medium.png",
         "alt": ""
@@ -36,21 +36,21 @@
       }
     },
     {
-      "label": "PWA (Offline Support)",
+      "label": "Machine Learning",
       "image": {
         "src": "../../images/mobile-phone.png",
         "alt": ""
       }
     },
     {
-      "label": "Modern Tech-Stack",
+      "label": "Networks",
       "image": {
         "src": "../../images/gatsby.png",
         "alt": ""
       }
     },
     {
-      "label": "Blazing Fast",
+      "label": "Operating Systems",
       "image": {
         "src": "../../images/high-voltage.png",
         "alt": ""

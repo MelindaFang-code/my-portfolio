@@ -1,13 +1,13 @@
 {
   "name": "Melinda Fang",
-  "email": "cf348@cornell.edu",
+  "email": "chenxin.fang924@gmail.com",
   "description": "Feel free to reach out! Would love to connect!",
   "image": {
     "src": "../../images/favicon.png",
     "alt": "Gatsby Logo"
   },
   "socialProfiles": {
-    "from": ["LinkedIn", "Github", "Mail"],
+    "from": ["LinkedIn", "Github"],
     "showIcons": true
   }
 }
