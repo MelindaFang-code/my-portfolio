@@ -5,9 +5,11 @@ import { GatsbyImage } from "gatsby-plugin-image";
 import * as classes from "./style.module.css";
 
 import React from "react";
+import { Icon } from "gatsby-theme-portfolio-minimal/src/components/Icon";
 enum LinkType {
   External = "external",
   Github = "github",
+  PDF = "pdf",
 }
 
 interface ImageObject {

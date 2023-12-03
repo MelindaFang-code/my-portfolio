@@ -22,9 +22,9 @@
       }
     },
     {
-      "label": "MongoDb",
+      "label": "Machine Learning",
       "image": {
-        "src": "../../images/medium.png",
+        "src": "../../images/mobile-phone.png",
         "alt": ""
       }
     },
@@ -36,26 +36,19 @@
       }
     },
     {
-      "label": "Machine Learning",
+      "label": "MongoDb",
       "image": {
-        "src": "../../images/mobile-phone.png",
+        "src": "../../images/medium.png",
         "alt": ""
       }
     },
     {
       "label": "Networks",
       "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Operating Systems",
-      "image": {
         "src": "../../images/high-voltage.png",
         "alt": ""
       }
-    }
+    }  
   ],
   "button": {
     "visible": true,

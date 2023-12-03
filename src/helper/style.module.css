@@ -112,3 +112,97 @@
         height: 18.75rem;
     }
 }
+
+.Button {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    max-width: 15.625rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 0rem 0rem 1rem 0rem;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    text-align: center;
+}
+
+.selectedButton {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    max-width: 15.625rem;
+    background-color: var(--box-shadow-hover-color);
+    color: var(--subtext-color);
+    padding: 0rem 0rem 1rem 0rem;
+    margin: 1 auto;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    text-align: center;
+}
+
+.Button:hover,
+.Button:active {
+    cursor: pointer;
+    outline: none;
+}
+
+.Button:focus {
+    outline-color: var(--subtext-color);
+    outline-style: dotted;
+    outline-width: 2px;
+}
+
+.Interests {
+    display: grid;
+    grid-template-columns: repeat(1, 17.5rem);
+    grid-auto-flow: row;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.Interest {
+    width: 17.5rem;
+    height: 3rem;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    border: 0.125rem solid var(--primary-color);
+    border-radius: var(--border-radius);
+    background: var(--card-background-color);
+}
+
+.Interests button {
+    max-width: 17.5rem;
+}
+
+.Interest .Icon {
+    margin-right: 0.5rem;
+}
+
+@media (min-width: 600px) {
+    .Interests {
+        grid-template-columns: repeat(2, 15.625rem);
+    }
+
+    .Interest {
+        width: 15.625rem;
+    }
+
+    .Interests button {
+        max-width: 15.625rem;
+    }
+}
+
+@media (min-width: 880px) {
+    .Interests {
+        grid-template-columns: repeat(3, 15.625rem);
+    }
+}

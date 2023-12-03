@@ -5,21 +5,14 @@
       "category": "Jun 2023-Aug 2023",
       "title": "Citadel Securities, Quant Developer Intern",
       "description": "Re-architecture the option pricing tool to apply volatility assertion, reduced 70% latency and improve production stability.",
-      "tags": ["Algorithmic Trading", "C++", "Network Programming", "Low Latency"],
+      "tags": ["Algorithmic Trading", "C/C++", "Python", "Networks", "Low Latency"],
       "image": {
         "src": "../../images/citsec2.png",
         "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        "linkTo": ""
       },
       "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-        },
-        {
-          "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
-        }
+        
       ]
     },
     {
@@ -27,7 +20,7 @@
       "category": "Jan 2023 - Apr 2023",
       "title": "Stripe, Software Developer Intern",
       "description": " Built workflows that migrate petabytes of data from 1k+ replica sets to upgrade and rebalance shards, and dashboards to monitor process and send alerts",
-      "tags": ["GoLang", "Workflow Orchestration", "MongoDb", "Protobuf", "gRPC", "Splunk"],
+      "tags": ["GoLang", "Workflow Orchestration", "MongoDb", "Protobuf", "gRPC", "Typescript", "Splunk"],
       "image": {
         "src": "../../images/s.png",
         "alt": "Extendable Layout"
