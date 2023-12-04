@@ -16,9 +16,55 @@
         "src": "../../images/trans.png",
         "alt": "Quick Setup",
         "linkTo":
-          "https://docs.google.com/document/d/143czgspyAJXNHeHInOkcUsSZhEsAoMZuiusUjIKBo0M/edit?usp=sharing"
+          "https://drive.google.com/file/d/1AjKsBuSE9W5VkjrUJUEkFntQFDiTyaim/view?usp=drive_link"
       },
       "links": [
+      ]
+    },
+    {
+      "visible": true,
+      "category": "",
+      "title": "ReTrend: Research Trend Prediction",
+      "description":
+        "A research trend forecasting tool with 0.941 Avg pearson correlation, composed of (1) a graph node encoder that embeds the keyword interaction (2) a time series encoder that predicts the future node features (3) a MLP head that predicts popularity of keywords.",
+      "tags": [
+        "Python",
+        "Graph Neural Network",
+        "Keyword Co-Occurrence Network",
+        "Natural Language Processing",
+        "Machine Learning"      ],
+      "image": {
+        "src": "../../images/retrend.png",
+        "alt": "Quick Setup",
+        "linkTo":
+          "https://drive.google.com/file/d/1hKJSy28BKqQe4xS1yOc0TD8Wm3OkQSWR/view?usp=drive_link"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://docs.google.com/presentation/d/1SyeWvJVjmtZmjlSeM5JF9MfMx_XQmRQrLENlaW09QvQ/edit?usp=sharing"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/garywei944/cs6784_research/tree/main"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Sept 2022 - Dec 2022",
+      "title": "CUApts",
+      "description": "An Express.JS app for students to review housing options, with real-time chat functionality using Kafka, achieving elasticity and high availability leveraging Azure cloud technologies",
+      "tags": ["Typescript", "Kafka", "NoSQL", "Azure"],
+      "image": {
+        "src": "../../images/CUApts.png",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/MelindaFang-code/ithaca-apartments"
+        }
       ]
     },
     {
@@ -42,7 +88,7 @@
       },
       "links": [
         {
-          "type": "pdf",
+          "type": "external",
           "url": "https://arxiv.org/abs/2207.01483"
         }
       ]

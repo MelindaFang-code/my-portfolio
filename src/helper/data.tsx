@@ -131,7 +131,7 @@ export function Project(props) {
                   rel="noopener noreferrer"
                   aria-label="External Link"
                 >
-                  {/* <Icon name={link.type} color="var(--subtext-color)" /> */}
+                  {<Icon name={link.type} color="var(--subtext-color)" />}
                 </a>
               );
             })}

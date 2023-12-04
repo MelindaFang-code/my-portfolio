@@ -19,6 +19,8 @@ import { InterestsSection } from "../helper/skills.tsx";
 export default function IndexPage() {
   const proj = MyProject();
   const [shownSkills, setShownSkills] = React.useState("");
+  let work_idx =
+    proj[0].projects[0].title === "Citadel Securities, Quant Developer Intern" ? 0 : 1
   return (
     <>
       <Seo title="Melinda Fang's Portfolio" />
@@ -32,7 +34,7 @@ export default function IndexPage() {
         />
         <Animation type="fadeIn">
           <Section anchor={"experiences"} heading={"Experiences"}>
-            {proj[0].projects.map((project, key) => {
+            {proj[work_idx].projects.map((project, key) => {
               let shown =
                 shownSkills === "" ||
                 (project.tags !== undefined &&
@@ -45,9 +47,9 @@ export default function IndexPage() {
         </Animation>
         <Animation type="fadeIn">
           <Section anchor={"myProj"} heading={"Personal Projects"}>
-            {proj[1].projects.map((project, key) => {
+            {proj[1 - work_idx].projects.map((project, key) => {
               let shown =
-                shownSkills === "" || 
+                shownSkills === "" ||
                 (project.tags !== undefined &&
                   project.tags.indexOf(shownSkills) !== -1);
 
